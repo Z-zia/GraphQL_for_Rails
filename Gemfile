@@ -62,6 +62,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem "dotenv-rails"
 end
 
 group :test do
@@ -70,3 +71,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Below this is just what I added
+gem "graphql", "~> 2.0.7"
+gem "graphiql-rails"
